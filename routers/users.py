@@ -42,7 +42,7 @@ class SignInRequestFormCustom:
         
 
 @router.post(
-    "/api/signup",
+    "/api/sign_up",
     tags=["Authentication"],
     summary="Signup with login credentials",
     description="Signup to create an account",
